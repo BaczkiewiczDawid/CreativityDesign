@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    font-family: 'Roboto', sans-serif;
+    background: #fafafa;
+    overflow-x: hidden;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    ul {
+        li {
+            list-style-type: none;
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}

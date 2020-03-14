@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    font-family: 'Roboto', sans-serif;
+    background: #fafafa;
+    overflow-x: hidden;
+}
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+}
+nav ul {
+    flex-direction: row;
+}
+nav ul li {
+    list-style-type: none;
+    margin-left: 15px;
+    font-size: 16px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #2a2a2a;
+    cursor: pointer;
+}
