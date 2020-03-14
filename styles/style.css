@@ -26,6 +26,16 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  -webkit-animation-name: appearDwa;
+          animation-name: appearDwa;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 
 nav ul {
@@ -56,6 +66,20 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+header h1, header h2, header p, header .btn, header #buttonOne, header #buttonTwo {
+  opacity: 0;
+  -webkit-animation-name: appearDwa;
+          animation-name: appearDwa;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 
 header h1 {
@@ -129,9 +153,20 @@ header img {
       -ms-flex-align: center;
           align-items: center;
   margin: 10vh auto;
+  opacity: 0;
+  -webkit-animation-name: appear;
+          animation-name: appear;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 
-header .active {
+.active {
   color: #6C63FF;
 }
 
@@ -271,11 +306,23 @@ header .active {
   header img {
     margin-left: 38.5rem;
   }
+  nav ul {
+    margin-top: 4vh;
+  }
+  nav ul li {
+    font-size: 22px;
+  }
 }
 
 @media (min-width: 1220px) {
   header img {
     margin-left: 40rem;
+  }
+  nav ul {
+    margin-top: 4vh;
+  }
+  nav ul li {
+    font-size: 22px;
   }
 }
 
@@ -297,9 +344,11 @@ header .active {
   header #buttonTwo {
     font-size: 18px;
   }
+  nav ul {
+    margin-top: 4vh;
+  }
   nav ul li {
-    font-size: 28px;
-    margin-left: 3.4vw;
+    font-size: 22px;
   }
 }
 
@@ -307,6 +356,12 @@ header .active {
   header img {
     max-width: 650px;
     margin-left: 51rem;
+  }
+  nav ul {
+    margin-top: 4vh;
+  }
+  nav ul li {
+    font-size: 22px;
   }
 }
 
@@ -327,6 +382,12 @@ header .active {
   header img {
     margin-left: 60rem;
   }
+  nav ul {
+    margin-top: 4vh;
+  }
+  nav ul li {
+    font-size: 22px;
+  }
 }
 
 @media (min-width: 1830px) {
@@ -334,6 +395,12 @@ header .active {
     max-width: 750px;
     margin-left: 65rem;
     margin-top: 16vh;
+  }
+  nav ul {
+    margin-top: 4vh;
+  }
+  nav ul li {
+    font-size: 22px;
   }
 }
 
@@ -360,6 +427,58 @@ header .active {
   }
   nav ul li {
     font-size: 22px;
+  }
+}
+
+@-webkit-keyframes appear {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes appearDwa {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes appearDwa {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
 }
 /*# sourceMappingURL=style.css.map */

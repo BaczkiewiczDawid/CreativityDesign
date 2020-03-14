@@ -18,7 +18,7 @@ body, html {
 @mixin animacjaDwa {
     animation-name: appearDwa;
     animation-direction: normal;
-    animation-fill-mode: both;
+    animation-fill-mode: none;
     animation-iteration-count: 1;
     animation-duration: 1s;
 }
@@ -28,7 +28,6 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
-    @include animacjaDwa;
     ul {
         margin-top: 20px;
         li {

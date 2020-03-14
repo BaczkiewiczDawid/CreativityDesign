@@ -11,14 +11,7 @@ body, html {
 @mixin animacja {
     animation-name: appear;
     animation-direction: normal;
-    animation-fill-mode: both;
-    animation-iteration-count: 1;
-    animation-duration: 1s;
-}
-@mixin animacjaDwa {
-    animation-name: appearDwa;
-    animation-direction: normal;
-    animation-fill-mode: both;
+    animation-fill-mode: none;
     animation-iteration-count: 1;
     animation-duration: 1s;
 }
@@ -28,7 +21,6 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
-    @include animacjaDwa;
     ul {
         margin-top: 20px;
         li {
@@ -49,10 +41,6 @@ nav {
 header {
     display: flex;
     flex-direction: column;
-    h1,h2,p,.btn,#buttonOne,#buttonTwo {
-        opacity: 0;
-        @include animacjaDwa;
-    }
     h1 {
         color: #2a2a2a;
         margin-top: 7.5vh;
@@ -106,7 +94,6 @@ header {
         justify-content: center;
         align-items: center;
         margin: 10vh auto;
-        opacity: 0;
         @include animacja;
     }
 }
@@ -412,16 +399,6 @@ header {
     0% {
         opacity: 0;
         transform: translateX(50px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-@keyframes appearDwa {
-    0% {
-        opacity: 0;
-        transform: translateX(-50px);
     }
     100% {
         opacity: 1;

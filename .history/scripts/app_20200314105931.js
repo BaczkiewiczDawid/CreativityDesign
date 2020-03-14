@@ -11,8 +11,7 @@ tutorials.addEventListener("click", changeColorTutorials);
 function load() {
     home.classList.add("active");
 }
-load();
-
+load()
 function changeColorHome() {
     home.classList.add("active");
     activity.classList.remove("active");
