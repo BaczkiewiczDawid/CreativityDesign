@@ -36,6 +36,8 @@ nav {
           animation-iteration-count: 1;
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s;
 }
 
 nav ul {
@@ -80,6 +82,8 @@ header h1, header h2, header p, header .btn, header #buttonOne, header #buttonTw
           animation-iteration-count: 1;
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s;
 }
 
 header h1 {
@@ -164,6 +168,8 @@ header img {
           animation-iteration-count: 1;
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s;
 }
 
 .active {
