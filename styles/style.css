@@ -58,6 +58,8 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #6C63FF;
+  -webkit-transition: .15s all ease-in-out;
+  transition: .15s all ease-in-out;
 }
 
 header {
@@ -134,6 +136,8 @@ header #buttonOne {
 header #buttonOne:hover {
   background: #6C63FF;
   color: white;
+  -webkit-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
 }
 
 header #buttonTwo {
@@ -186,11 +190,12 @@ section {
           flex-direction: column;
 }
 
-section h1 {
+section .remember {
   font-size: 40px;
   width: 80%;
   color: #2a2a2a;
   margin-left: 7vw;
+  margin-top: 3vh;
   line-height: 8.5vh;
 }
 
@@ -205,7 +210,7 @@ section .firstParagraph {
   margin-left: 7vw;
   line-height: 28px;
   font-weight: 300;
-  margin-top: 3.5vh;
+  margin-top: 5vh;
 }
 
 section .secoundParagraph {
@@ -218,7 +223,7 @@ section .secoundParagraph {
   margin-top: 4vh;
 }
 
-section img {
+section .phoneImg {
   max-width: 80%;
   height: auto;
   margin-top: 5vh;
@@ -234,7 +239,7 @@ time {
           flex-direction: column;
 }
 
-time h1 {
+time .manage {
   font-size: 40px;
   width: 80%;
   margin-left: 4vw;
@@ -246,7 +251,7 @@ time .time {
   color: #6C63FF;
 }
 
-time p {
+time .paragraph {
   width: 90%;
   font-size: 16px;
   color: #2a2a2a;
@@ -256,7 +261,7 @@ time p {
   font-weight: 300;
 }
 
-time img {
+time .clockImg {
   max-width: 80%;
   height: auto;
   -webkit-box-pack: center;
@@ -278,7 +283,7 @@ content {
           flex-direction: column;
 }
 
-content h1 {
+content .contentHeader {
   margin-left: 4vw;
   font-size: 40px;
   color: #2a2a2a;
@@ -288,7 +293,7 @@ content .content {
   color: #6C63FF;
 }
 
-content p {
+content .paragraphContent {
   margin-left: 4vw;
   line-height: 28px;
   margin-top: 3.5vh;
@@ -298,7 +303,7 @@ content p {
   width: 90%;
 }
 
-content img {
+content .contentImg {
   max-width: 80%;
   height: auto;
   -webkit-box-pack: center;
@@ -314,10 +319,18 @@ content img {
   nav ul li {
     font-size: 17px;
   }
-  content h1 {
+  section .remember {
+    margin-top: 5vh;
+    line-height: 70px;
+  }
+  section .phoneImg {
+    margin-top: 10vh;
+    max-width: 300px;
+  }
+  content .contentHeader {
     width: 60%;
   }
-  time h1 {
+  time .manage {
     width: 60%;
   }
 }
@@ -333,7 +346,7 @@ content img {
     margin-left: 30px;
     font-size: 17px;
   }
-  section h1 {
+  section .remember {
     margin-left: 48vw;
     margin-top: 20vh;
     font-size: 50px;
@@ -348,29 +361,29 @@ content img {
     margin-left: 48vw;
     width: 40%;
   }
-  section img {
+  section .phoneImg {
     position: absolute;
     max-width: 320px;
     height: auto;
     margin-top: 32vh;
     margin-left: 0rem;
   }
-  time h1 {
+  time .manage {
     font-size: 50px;
     width: 50%;
     margin-top: 15vh;
   }
-  time p {
+  time .paragraph {
     width: 40%;
     font-size: 16px;
   }
-  time img {
+  time .clockImg {
     max-width: 320px;
     position: absolute;
-    margin-top: 28vh;
-    margin-left: 24rem;
+    margin-top: 45vh;
+    margin-left: 23rem;
   }
-  content h1 {
+  content .contentHeader {
     font-size: 50px;
     width: 100%;
     -webkit-box-pack: center;
@@ -382,13 +395,13 @@ content img {
     text-align: center;
     margin: 15vh auto;
   }
-  content p {
+  content .paragraphContent {
     font-size: 16px;
     width: 80%;
     text-align: center;
     margin: -7vh auto;
   }
-  content img {
+  content .contentImg {
     max-width: 380px;
     margin-top: 20vh;
   }
@@ -443,10 +456,10 @@ content img {
   section .secoundParagraph {
     line-height: 32px;
   }
-  content p {
+  content .paragraphContent {
     line-height: 32px;
   }
-  time p {
+  time .paragraph {
     line-height: 32px;
   }
 }
@@ -465,27 +478,27 @@ content img {
   header #buttonOne {
     font-size: 17px;
   }
-  section h1 {
+  section .rememer {
     font-size: 55px;
     margin-left: 43vw;
   }
   section .firstParagraph, section .secoundParagraph {
     margin-left: 43vw;
   }
-  section img {
+  section .phoneImg {
     max-width: 400px;
     margin-top: 22vh;
     margin-left: -1.5vw;
   }
-  time img {
+  time .clockImg {
     max-width: 400px;
     margin-left: 29rem;
     margin-top: 26vh;
   }
-  content h1 {
+  content .contentHeader {
     font-size: 55px;
   }
-  content img {
+  content .contentImg {
     margin-top: 17vh;
     max-width: 400px;
   }
@@ -513,7 +526,7 @@ content img {
   header img {
     max-width: 470px;
   }
-  section h1 {
+  section .remember {
     font-size: 62px;
     margin-left: 46vw;
   }
@@ -525,20 +538,20 @@ content img {
     font-size: 20px;
     margin-left: 46vw;
   }
-  time h1 {
+  time .manage {
     font-size: 62px;
   }
-  time p {
+  time .paragraph {
     font-size: 20px;
   }
-  time img {
+  time .clockImg {
     margin-left: 52vw;
     margin-top: 30vh;
   }
-  content h1 {
+  content .contentHeader {
     font-size: 62px;
   }
-  content p {
+  content .paragraphContent {
     font-size: 20px;
   }
 }
@@ -569,27 +582,27 @@ content img {
     font-size: 16px;
     margin-left: 4vw;
   }
-  time h1 {
+  time .manage {
     font-size: 65px;
   }
-  time p {
+  time .paragraph {
     letter-spacing: 1.5px;
   }
 }
 
-content h1 {
+content .contentHeader {
   font-size: 65px;
 }
 
-content p {
+content .paragraphContent {
   letter-spacing: 1.5px;
 }
 
-section h1 {
+section .remember {
   font-size: 65px;
 }
 
-section p {
+section .firstParagraph, section .secoundParagraph {
   letter-spacing: 1.5px;
 }
 
@@ -635,7 +648,7 @@ section p {
   header #buttonTwo {
     font-size: 18px;
   }
-  section h1 {
+  section .remember {
     font-size: 75px;
     line-height: 100px;
   }
@@ -645,28 +658,28 @@ section p {
   section .secoundParagraph {
     font-size: 24px;
   }
-  section img {
+  section .phoneImg {
     margin-top: 30vh;
     margin-left: 4rem;
   }
-  time h1 {
+  time .manage {
     font-size: 75px;
   }
-  time p {
+  time .paragraph {
     font-size: 24px;
     margin-top: 10vh;
   }
-  time img {
+  time .clockImg {
     max-width: 480px;
   }
-  content h1 {
+  content .contentHeader {
     font-size: 75px;
     margin-top: 30vh;
   }
-  content p {
+  content .paragraphContent {
     font-size: 24px;
   }
-  content img {
+  content .contentImg {
     max-width: 480px;
   }
   nav ul {
@@ -753,6 +766,27 @@ section p {
   nav ul li {
     font-size: 22px;
   }
+}
+
+section .remember {
+  margin-top: 30vh;
+}
+
+section .phoneImg {
+  max-width: 500px;
+}
+
+time .manage {
+  margin-top: 30vh;
+}
+
+time .clockImg {
+  margin-top: 39vh;
+  max-width: 550px;
+}
+
+content .contentImg {
+  max-width: 550px;
 }
 
 @-webkit-keyframes appear {
