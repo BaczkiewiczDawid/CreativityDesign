@@ -71,7 +71,7 @@ const tlc = new TimelineMax();
 
 tlc.fromTo(".contentHeader", 1, {y: 80, opacity: 0}, {y: 0, opacity: 1},)
 tlc.fromTo(".paragraphContent", 1, {y: 80, opacity: 0}, {y: 0, opacity: 1}, .5)
-tlc.fromTo(".contentImg", 1, {x: 100, opacity: 0}, {x: 0, opacity: 1}, 1)
+tlc.fromTo(".contentImg", 1, {x: 100, opacity: 0}, {y: 0, opacity: 1}, 1)
 
 let sceneThree = new ScrollMagic.Scene({
     triggerElement: ".content",
