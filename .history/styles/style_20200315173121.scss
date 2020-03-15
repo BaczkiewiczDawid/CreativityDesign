@@ -596,7 +596,7 @@ header {
             font-size: 18px;
         }
     }
-    .section {
+    section {
         .remember {
             font-size: 75px;
             line-height: 100px;
@@ -612,7 +612,7 @@ header {
             margin-left: 4rem;
         }
     }
-    .time {
+    time {
         .manage {
             font-size: 75px;
         }
@@ -624,7 +624,7 @@ header {
             max-width: 480px;
         }
     }
-    .content {
+    content {
         .contentHeader {
             font-size: 75px;
             margin-top: 30vh;
@@ -734,30 +734,29 @@ header {
             }
         }
     }
-    .section {
-        .remember {
-            margin-top: 30vh;
-        }
-        .phoneImg {
-            max-width: 500px;
-        }
+}
+section {
+    .remember {
+        margin-top: 30vh;
     }
-    .time {
-        .manage {
-            margin-top: 30vh;
-        }
-        .clockImg {
-            margin-top: 39vh;
-            max-width: 550px;
-        }
-    }
-    .content {
-        .contentImg {
-            max-width: 550px;
-        }
+    .phoneImg {
+        max-width: 500px;
     }
 }
-
+time {
+    .manage {
+        margin-top: 30vh;
+    }
+    .clockImg {
+        margin-top: 39vh;
+        max-width: 550px;
+    }
+}
+content {
+    .contentImg {
+        max-width: 550px;
+    }
+}
 @keyframes appear {
     0% {
         opacity: 0;

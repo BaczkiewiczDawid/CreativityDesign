@@ -180,7 +180,7 @@ header img {
   color: #6C63FF;
 }
 
-section {
+.section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -190,7 +190,7 @@ section {
           flex-direction: column;
 }
 
-section .remember {
+.section .remember {
   font-size: 40px;
   width: 80%;
   color: #2a2a2a;
@@ -199,11 +199,11 @@ section .remember {
   line-height: 8.5vh;
 }
 
-section .spanFirst {
+.section .spanFirst {
   color: #6C63FF;
 }
 
-section .firstParagraph {
+.section .firstParagraph {
   width: 90%;
   color: #2a2a2a;
   font-size: 16px;
@@ -213,7 +213,7 @@ section .firstParagraph {
   margin-top: 5vh;
 }
 
-section .secoundParagraph {
+.section .secoundParagraph {
   width: 90%;
   color: #2a2a2a;
   font-size: 16px;
@@ -223,13 +223,13 @@ section .secoundParagraph {
   margin-top: 4vh;
 }
 
-section .phoneImg {
+.section .phoneImg {
   max-width: 80%;
   height: auto;
   margin-top: 5vh;
 }
 
-time {
+.time {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -239,7 +239,7 @@ time {
           flex-direction: column;
 }
 
-time .manage {
+.time .manage {
   font-size: 40px;
   width: 80%;
   margin-left: 4vw;
@@ -247,11 +247,11 @@ time .manage {
   color: #2a2a2a;
 }
 
-time .time {
+.time .time {
   color: #6C63FF;
 }
 
-time .paragraph {
+.time .paragraph {
   width: 90%;
   font-size: 16px;
   color: #2a2a2a;
@@ -261,7 +261,7 @@ time .paragraph {
   font-weight: 300;
 }
 
-time .clockImg {
+.time .clockImg {
   max-width: 80%;
   height: auto;
   -webkit-box-pack: center;
@@ -273,7 +273,7 @@ time .clockImg {
   margin: 8vh auto;
 }
 
-content {
+.content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -283,17 +283,17 @@ content {
           flex-direction: column;
 }
 
-content .contentHeader {
+.content .contentHeader {
   margin-left: 4vw;
   font-size: 40px;
   color: #2a2a2a;
 }
 
-content .content {
+.content .content {
   color: #6C63FF;
 }
 
-content .paragraphContent {
+.content .paragraphContent {
   margin-left: 4vw;
   line-height: 28px;
   margin-top: 3.5vh;
@@ -303,7 +303,7 @@ content .paragraphContent {
   width: 90%;
 }
 
-content .contentImg {
+.content .contentImg {
   max-width: 80%;
   height: auto;
   -webkit-box-pack: center;
@@ -319,18 +319,18 @@ content .contentImg {
   nav ul li {
     font-size: 17px;
   }
-  section .remember {
+  .section .remember {
     margin-top: 5vh;
     line-height: 70px;
   }
-  section .phoneImg {
+  .section .phoneImg {
     margin-top: 10vh;
     max-width: 300px;
   }
-  content .contentHeader {
+  .content .contentHeader {
     width: 60%;
   }
-  time .manage {
+  .time .manage {
     width: 60%;
   }
 }
@@ -346,44 +346,44 @@ content .contentImg {
     margin-left: 30px;
     font-size: 17px;
   }
-  section .remember {
+  .section .remember {
     margin-left: 48vw;
     margin-top: 20vh;
     font-size: 50px;
     width: 50%;
     line-height: 70px;
   }
-  section .firstParagraph {
+  .section .firstParagraph {
     margin-left: 48vw;
     width: 40%;
   }
-  section .secoundParagraph {
+  .section .secoundParagraph {
     margin-left: 48vw;
     width: 40%;
   }
-  section .phoneImg {
+  .section .phoneImg {
     position: absolute;
     max-width: 320px;
     height: auto;
     margin-top: 32vh;
     margin-left: 0rem;
   }
-  time .manage {
+  .time .manage {
     font-size: 50px;
     width: 50%;
     margin-top: 15vh;
   }
-  time .paragraph {
+  .time .paragraph {
     width: 40%;
     font-size: 16px;
   }
-  time .clockImg {
+  .time .clockImg {
     max-width: 320px;
     position: absolute;
     margin-top: 45vh;
     margin-left: 23rem;
   }
-  content .contentHeader {
+  .content .contentHeader {
     font-size: 50px;
     width: 100%;
     -webkit-box-pack: center;
@@ -395,13 +395,13 @@ content .contentImg {
     text-align: center;
     margin: 15vh auto;
   }
-  content .paragraphContent {
+  .content .paragraphContent {
     font-size: 16px;
     width: 80%;
     text-align: center;
     margin: -7vh auto;
   }
-  content .contentImg {
+  .content .contentImg {
     max-width: 380px;
     margin-top: 20vh;
   }
@@ -450,16 +450,16 @@ content .contentImg {
   header #buttonOne {
     font-size: 15px;
   }
-  section .firstParagraph {
+  .section .firstParagraph {
     line-height: 32px;
   }
-  section .secoundParagraph {
+  .section .secoundParagraph {
     line-height: 32px;
   }
-  content .paragraphContent {
+  .content .paragraphContent {
     line-height: 32px;
   }
-  time .paragraph {
+  .time .paragraph {
     line-height: 32px;
   }
 }
@@ -478,27 +478,27 @@ content .contentImg {
   header #buttonOne {
     font-size: 17px;
   }
-  section .rememer {
+  .section .rememer {
     font-size: 55px;
     margin-left: 43vw;
   }
-  section .firstParagraph, section .secoundParagraph {
+  .section .firstParagraph, .section .secoundParagraph {
     margin-left: 43vw;
   }
-  section .phoneImg {
+  .section .phoneImg {
     max-width: 400px;
     margin-top: 22vh;
     margin-left: -1.5vw;
   }
-  time .clockImg {
+  .time .clockImg {
     max-width: 400px;
     margin-left: 29rem;
     margin-top: 26vh;
   }
-  content .contentHeader {
+  .content .contentHeader {
     font-size: 55px;
   }
-  content .contentImg {
+  .content .contentImg {
     margin-top: 17vh;
     max-width: 400px;
   }
@@ -526,32 +526,32 @@ content .contentImg {
   header img {
     max-width: 470px;
   }
-  section .remember {
+  .section .remember {
     font-size: 62px;
     margin-left: 46vw;
   }
-  section .firstParagraph {
+  .section .firstParagraph {
     font-size: 20px;
     margin-left: 46vw;
   }
-  section .secoundParagraph {
+  .section .secoundParagraph {
     font-size: 20px;
     margin-left: 46vw;
   }
-  time .manage {
+  .time .manage {
     font-size: 62px;
   }
-  time .paragraph {
+  .time .paragraph {
     font-size: 20px;
   }
-  time .clockImg {
+  .time .clockImg {
     margin-left: 52vw;
     margin-top: 30vh;
   }
-  content .contentHeader {
+  .content .contentHeader {
     font-size: 62px;
   }
-  content .paragraphContent {
+  .content .paragraphContent {
     font-size: 20px;
   }
 }
@@ -582,28 +582,24 @@ content .contentImg {
     font-size: 16px;
     margin-left: 4vw;
   }
-  time .manage {
+  .time .manage {
     font-size: 65px;
   }
-  time .paragraph {
+  .time .paragraph {
     letter-spacing: 1.5px;
   }
-}
-
-content .contentHeader {
-  font-size: 65px;
-}
-
-content .paragraphContent {
-  letter-spacing: 1.5px;
-}
-
-section .remember {
-  font-size: 65px;
-}
-
-section .firstParagraph, section .secoundParagraph {
-  letter-spacing: 1.5px;
+  .content .contentHeader {
+    font-size: 65px;
+  }
+  .content .paragraphContent {
+    letter-spacing: 1.5px;
+  }
+  section .remember {
+    font-size: 65px;
+  }
+  section .firstParagraph, section .secoundParagraph {
+    letter-spacing: 1.5px;
+  }
 }
 
 @media (min-width: 1140px) {
@@ -648,38 +644,38 @@ section .firstParagraph, section .secoundParagraph {
   header #buttonTwo {
     font-size: 18px;
   }
-  section .remember {
+  .section .remember {
     font-size: 75px;
     line-height: 100px;
   }
-  section .firstParagraph {
+  .section .firstParagraph {
     font-size: 24px;
   }
-  section .secoundParagraph {
+  .section .secoundParagraph {
     font-size: 24px;
   }
-  section .phoneImg {
+  .section .phoneImg {
     margin-top: 30vh;
     margin-left: 4rem;
   }
-  time .manage {
+  .time .manage {
     font-size: 75px;
   }
-  time .paragraph {
+  .time .paragraph {
     font-size: 24px;
     margin-top: 10vh;
   }
-  time .clockImg {
+  .time .clockImg {
     max-width: 480px;
   }
-  content .contentHeader {
+  .content .contentHeader {
     font-size: 75px;
     margin-top: 30vh;
   }
-  content .paragraphContent {
+  .content .paragraphContent {
     font-size: 24px;
   }
-  content .contentImg {
+  .content .contentImg {
     max-width: 480px;
   }
   nav ul {
@@ -766,27 +762,22 @@ section .firstParagraph, section .secoundParagraph {
   nav ul li {
     font-size: 22px;
   }
-}
-
-section .remember {
-  margin-top: 30vh;
-}
-
-section .phoneImg {
-  max-width: 500px;
-}
-
-time .manage {
-  margin-top: 30vh;
-}
-
-time .clockImg {
-  margin-top: 39vh;
-  max-width: 550px;
-}
-
-content .contentImg {
-  max-width: 550px;
+  .section .remember {
+    margin-top: 30vh;
+  }
+  .section .phoneImg {
+    max-width: 500px;
+  }
+  .time .manage {
+    margin-top: 30vh;
+  }
+  .time .clockImg {
+    margin-top: 39vh;
+    max-width: 550px;
+  }
+  .content .contentImg {
+    max-width: 550px;
+  }
 }
 
 @-webkit-keyframes appear {
