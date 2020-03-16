@@ -8,11 +8,6 @@ activity.addEventListener("click", changeColorActivity);
 inspirations.addEventListener("click", changeColorInspirations);
 tutorials.addEventListener("click", changeColorTutorials);
 
-function load() {
-    home.classList.add("active");
-}
-
-load();
 
 function changeColorHome() {
     home.classList.add("active");
@@ -29,14 +24,14 @@ function changeColorActivity() {
 function changeColorInspirations() {
     inspirations.classList.add("active");
     home.classList.remove("active");
-    activity.classList.remove("active");
+    inspirations.classList.remove("active");
     tutorials.classList.remove("active");
 }
 function changeColorTutorials() {
     tutorials.classList.add("active");
     home.classList.remove("active");
     inspirations.classList.remove("active");
-    activity.classList.remove("active");
+    tutorials.classList.remove("active");
 }
 
 
