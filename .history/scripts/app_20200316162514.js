@@ -86,6 +86,3 @@ mobile.addEventListener("click", () => {
 time.addEventListener("click", () => {
     gsap.to(window, {duration: 1.5, scrollTo: ".time", ease: Power4.easeOut});
 });
-content.addEventListener("click", () => {
-    gsap.to(window, {duration: 1.5, scrollTo: ".content", ease: Power4.easeOut});
-});

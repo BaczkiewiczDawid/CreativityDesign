@@ -490,7 +490,7 @@ header img {
   header #buttonOne {
     font-size: 17px;
   }
-  .section .rememer {
+  .section .remember {
     font-size: 55px;
     margin-left: 43vw;
   }
@@ -604,6 +604,9 @@ header img {
   }
   .time .paragraph {
     letter-spacing: 1.5px;
+  }
+  .time .clockImg {
+    margin-top: 40vh;
   }
   .content .contentHeader {
     font-size: 65px;

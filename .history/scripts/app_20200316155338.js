@@ -1,12 +1,14 @@
+import jump from 'jump.js'
+
 const home = document.querySelector(".home");
-const mobile = document.querySelector(".activity");
-const time = document.querySelector(".inspirations");
-const content = document.querySelector(".tutorials");
+const activity = document.querySelector(".activity");
+const inspirations = document.querySelector(".inspirations");
+const tutorials = document.querySelector(".tutorials");
 
 home.addEventListener("click", changeColorHome);
-mobile.addEventListener("click", changeColorMobile);
-time.addEventListener("click", changeColorTime);
-content.addEventListener("click", changeColorContent);
+activity.addEventListener("click", changeColorActivity);
+inspirations.addEventListener("click", changeColorInspirations);
+tutorials.addEventListener("click", changeColorTutorials);
 
 function load() {
     home.classList.add("active");
@@ -17,26 +19,26 @@ load();
 function changeColorHome() {
     home.classList.add("active");
     activity.classList.remove("active");
-    time.classList.remove("active");
-    content.classList.remove("active");
+    inspirations.classList.remove("active");
+    tutorials.classList.remove("active");
 }
-function changeColorMobile() {
-    mobile.classList.add("active");
+function changeColorActivity() {
+    activity.classList.add("active");
     home.classList.remove("active");
-    time.classList.remove("active");
-    content.classList.remove("active");
+    inspirations.classList.remove("active");
+    tutorials.classList.remove("active");
 }
-function changeColorTime() {
-    time.classList.add("active");
+function changeColorInspirations() {
+    inspirations.classList.add("active");
     home.classList.remove("active");
-    mobile.classList.remove("active");
-    content.classList.remove("active");
+    activity.classList.remove("active");
+    tutorials.classList.remove("active");
 }
-function changeColorContent() {
-    content.classList.add("active");
+function changeColorTutorials() {
+    tutorials.classList.add("active");
     home.classList.remove("active");
-    time.classList.remove("active");
-    mobile.classList.remove("active");
+    inspirations.classList.remove("active");
+    activity.classList.remove("active");
 }
 
 
@@ -80,12 +82,6 @@ let sceneThree = new ScrollMagic.Scene({
 
 .setTween(tlc).addTo(controller);
 
-mobile.addEventListener("click", () => {
-    gsap.to(window, {duration: 1.5, scrollTo: ".section", ease: Power4.easeOut});
-});
-time.addEventListener("click", () => {
-    gsap.to(window, {duration: 1.5, scrollTo: ".time", ease: Power4.easeOut});
-});
-content.addEventListener("click", () => {
-    gsap.to(window, {duration: 1.5, scrollTo: ".content", ease: Power4.easeOut});
+activity.addEventListener("click", () => {
+    jump(100);
 });
