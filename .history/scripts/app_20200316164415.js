@@ -84,14 +84,14 @@ mobile.addEventListener("click", () => {
     gsap.to(window, {duration: 1.5, scrollTo: ".section", ease: Power4.easeOut});
 });
 time.addEventListener("click", () => {
-    gsap.to(window, {duration: 2, scrollTo: ".time", ease: Power4.easeOut});
+    gsap.to(window, {duration: 1.5, scrollTo: ".time", ease: Power4.easeOut});
 });
 content.addEventListener("click", () => {
-    gsap.to(window, {duration: 2.5, scrollTo: ".content", ease: Power4.easeOut});
+    gsap.to(window, {duration: 1.5, scrollTo: {y: 2000}, ease: Power4.easeOut});
 });
 
 const button = document.querySelector("#buttonOne");
 
 button.addEventListener("click", () => {
-    gsap.to(window, {duration: 1.5, scrollTo: document.body.scrollHeight, ease: Power4.easeOut});
+    gsap.to(window, {duration: 1.5, scrollTo: ".section", ease: Power4.easeOut});
 });
