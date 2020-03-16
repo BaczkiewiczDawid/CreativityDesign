@@ -93,5 +93,5 @@ content.addEventListener("click", () => {
 const button = document.querySelector("#buttonOne");
 
 button.addEventListener("click", () => {
-    gsap.to(window, {duration: 2.5, scrollTo: ".content", ease: Power4.easeOut});
+    gsap.to(window, {duration: 2.5, scrollTo: document.body.scrollHeight, ease: Power4.easeOut});
 });
