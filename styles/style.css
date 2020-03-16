@@ -19,13 +19,6 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
   -webkit-animation-name: appearDwa;
           animation-name: appearDwa;
   -webkit-animation-direction: normal;
@@ -42,13 +35,13 @@ nav {
 
 nav ul {
   margin-top: 20px;
+  margin-left: 7vw;
 }
 
 nav ul li {
   list-style-type: none;
   font-size: 14px;
   display: inline;
-  margin: 10px;
 }
 
 nav ul li a {
@@ -60,6 +53,10 @@ nav ul li a:hover {
   color: #6C63FF;
   -webkit-transition: .2s all ease-in-out;
   transition: .2s all ease-in-out;
+}
+
+nav ul .activity, nav ul .inspirations, nav ul .tutorials {
+  margin-left: 20px;
 }
 
 ::-moz-selection {
@@ -348,15 +345,14 @@ header img {
 }
 
 @media (min-width: 728px) {
-  nav {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    margin-left: 1vw;
+  nav ul {
+    margin-left: 4vw;
   }
   nav ul li {
-    margin-left: 30px;
     font-size: 17px;
+  }
+  nav .activity, nav .inspirations, nav .tutorials {
+    margin-left: 30px;
   }
   .section .remember {
     margin-left: 48vw;
@@ -590,8 +586,13 @@ header img {
     max-width: 520px;
     margin-top: 23vh;
   }
+  nav ul {
+    margin-left: 4vw;
+  }
   nav ul li {
     font-size: 16px;
+  }
+  nav .activity, nav .inspirations, nav .tutorials {
     margin-left: 4vw;
   }
   .time .manage {

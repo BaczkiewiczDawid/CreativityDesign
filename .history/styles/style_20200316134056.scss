@@ -256,9 +256,7 @@ header {
                 font-size: 17px;
             }
         }
-        .activity, .inspirations, .tutorials {
-            margin-left: 30px;
-        }
+        .activity, .inspirations, .tutorials
     }
     .section {
         .remember {
@@ -521,13 +519,10 @@ header {
     }
     nav {
         ul {
-            margin-left: 4vw;;
             li {
                 font-size: 16px;
+                margin-left: 4vw;;
             }
-        }
-        .activity, .inspirations, .tutorials {
-            margin-left: 4vw;;
         }
     }
     .time {

@@ -44,9 +44,7 @@ nav {
                 transition: .2s all ease-in-out;
             }
         }
-        .activity, .inspirations, .tutorials {
-            margin-left: 20px;
-        }
+        .activity, .inspirations, .tutorials {}
     }
 }
 ::selection {
@@ -250,14 +248,13 @@ header {
 }
 @media (min-width: 728px) {
     nav {
+        justify-content: flex-start;
+        margin-left: 1vw;
         ul {
-            margin-left: 4vw;
             li {
+                margin-left: 30px;
                 font-size: 17px;
             }
-        }
-        .activity, .inspirations, .tutorials {
-            margin-left: 30px;
         }
     }
     .section {
@@ -521,13 +518,10 @@ header {
     }
     nav {
         ul {
-            margin-left: 4vw;;
             li {
                 font-size: 16px;
+                margin-left: 4vw;;
             }
-        }
-        .activity, .inspirations, .tutorials {
-            margin-left: 4vw;;
         }
     }
     .time {
