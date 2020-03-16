@@ -49,9 +49,9 @@ nav {
         }
     }
 }
-::selection {
+h1,h2,p::selection {
     background: #2a2a2a;
-    color: white;
+    color: #fafafa;
 }
 header {
     display: flex;
