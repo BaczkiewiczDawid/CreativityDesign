@@ -524,10 +524,10 @@ header {
             margin-left: 4vw;;
             li {
                 font-size: 16px;
-                .activity, .inspirations, .tutorials {
-                    margin-left: 4vw;
-                }
             }
+        }
+        .activity, .inspirations, .tutorials {
+            margin-left: 4vw;;
         }
     }
     .time {
@@ -741,6 +741,9 @@ header {
             li {
                 font-size: 22px;
             }
+        }
+        .activity, .inspirations, .tutorials {
+            margin-left: 4vw;
         }
     }
     .section {
